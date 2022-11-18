@@ -648,7 +648,7 @@ static int readOHDRHeaderMessageGroupInfo(struct READER *reader,
 static int readOHDRHeaderMessageFilterPipelineV1(struct READER *reader,
                                                  uint8_t filters) {
   int i, j;
-  uint16_t filter_identification_value, number_client_data_values, namelength, flags;
+  uint16_t filter_identification_value, number_client_data_values, namelength, __unused flags;
 
   if (readValue(reader, 6) != 0) {
     mylog("reserved values not zero\n");
@@ -837,7 +837,7 @@ int readDataVar(struct READER *reader, struct DATAOBJECT *data,
     if (referenceData)
       buffer = referenceData->name;
     else {
-      sprintf(number, "REF%08lX", (long unsigned int)reference);
+      snprintf(number, sizeof(number), "REF%08lX", (long unsigned int)reference);
       buffer = number;
     }
     mylog("    REFERENCE %" PRIX64 " %" PRIX64 " %s\n", reference, dataobject,
