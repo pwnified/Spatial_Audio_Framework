@@ -58,7 +58,7 @@
 #ifndef __BINAURALISER_NF_H_INCLUDED__
 #define __BINAURALISER_NF_H_INCLUDED__
 
-#include <binauraliser.h>
+#include "binauraliser.h"
 
 #ifdef __cplusplus
 extern "C" {

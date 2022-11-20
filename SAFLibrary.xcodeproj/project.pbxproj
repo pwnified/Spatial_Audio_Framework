@@ -7,6 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A47D5D0A292A1F7600FC779B /* panner_internal.c in Sources */ = {isa = PBXBuildFile; fileRef = A47D5CF7292A1F6D00FC779B /* panner_internal.c */; };
+		A47D5D0B292A1F7900FC779B /* panner.c in Sources */ = {isa = PBXBuildFile; fileRef = A47D5CF8292A1F6D00FC779B /* panner.c */; };
+		A47D5D0C292A1F8800FC779B /* ambi_enc_internal.c in Sources */ = {isa = PBXBuildFile; fileRef = A47D5CF5292A1F6D00FC779B /* ambi_enc_internal.c */; };
+		A47D5D0D292A1F8800FC779B /* ambi_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = A47D5CF3292A1F6D00FC779B /* ambi_enc.c */; };
+		A47D5D0E292A1F8D00FC779B /* decorrelator.c in Sources */ = {isa = PBXBuildFile; fileRef = A47D5CF0292A1F6D00FC779B /* decorrelator.c */; };
+		A47D5D0F292A1F8D00FC779B /* decorrelator_internal.c in Sources */ = {isa = PBXBuildFile; fileRef = A47D5CF1292A1F6D00FC779B /* decorrelator_internal.c */; };
+		A47D5D10292A1F9300FC779B /* array2sh.c in Sources */ = {isa = PBXBuildFile; fileRef = A47D5CEC292A1F6D00FC779B /* array2sh.c */; };
+		A47D5D11292A1F9300FC779B /* array2sh_internal.c in Sources */ = {isa = PBXBuildFile; fileRef = A47D5CEB292A1F6D00FC779B /* array2sh_internal.c */; };
+		A47D5D12292A1F9800FC779B /* binauraliser_nf.c in Sources */ = {isa = PBXBuildFile; fileRef = A47D5CE8292A1F6D00FC779B /* binauraliser_nf.c */; };
+		A47D5D13292A1F9800FC779B /* binauraliser_nf_internal.c in Sources */ = {isa = PBXBuildFile; fileRef = A47D5CE9292A1F6D00FC779B /* binauraliser_nf_internal.c */; };
+		A47D5D14292A1F9D00FC779B /* rotator.c in Sources */ = {isa = PBXBuildFile; fileRef = A47D5CE4292A1F6D00FC779B /* rotator.c */; };
+		A47D5D15292A1F9D00FC779B /* rotator_internal.c in Sources */ = {isa = PBXBuildFile; fileRef = A47D5CE3292A1F6D00FC779B /* rotator_internal.c */; };
+		A47D5D16292A203A00FC779B /* binauraliser.c in Sources */ = {isa = PBXBuildFile; fileRef = A47D5CE0292A1F6D00FC779B /* binauraliser.c */; };
+		A47D5D17292A207000FC779B /* binauraliser_internal.c in Sources */ = {isa = PBXBuildFile; fileRef = A47D5CDF292A1F6D00FC779B /* binauraliser_internal.c */; };
+		A47D5D18292A20B300FC779B /* pitch_shifter_internal.c in Sources */ = {isa = PBXBuildFile; fileRef = A47D5CDB292A1F6D00FC779B /* pitch_shifter_internal.c */; };
+		A47D5D19292A20B500FC779B /* pitch_shifter.c in Sources */ = {isa = PBXBuildFile; fileRef = A47D5CDC292A1F6D00FC779B /* pitch_shifter.c */; };
+		A47D5D1A292A20BB00FC779B /* matrixconv.c in Sources */ = {isa = PBXBuildFile; fileRef = A47D5CD9292A1F6D00FC779B /* matrixconv.c */; };
+		A47D5D1B292A20BB00FC779B /* matrixconv_internal.c in Sources */ = {isa = PBXBuildFile; fileRef = A47D5CD8292A1F6D00FC779B /* matrixconv_internal.c */; };
+		A47D5D1C292A20BF00FC779B /* beamformer_internal.c in Sources */ = {isa = PBXBuildFile; fileRef = A47D5CD5292A1F6D00FC779B /* beamformer_internal.c */; };
+		A47D5D1D292A20BF00FC779B /* beamformer.c in Sources */ = {isa = PBXBuildFile; fileRef = A47D5CD4292A1F6D00FC779B /* beamformer.c */; };
+		A47D5D1E292A20C200FC779B /* ambi_bin_internal.c in Sources */ = {isa = PBXBuildFile; fileRef = A47D5CCF292A1F6D00FC779B /* ambi_bin_internal.c */; };
+		A47D5D1F292A20C200FC779B /* ambi_bin.c in Sources */ = {isa = PBXBuildFile; fileRef = A47D5CD1292A1F6D00FC779B /* ambi_bin.c */; };
+		A47D5D20292A20C600FC779B /* multiconv_internal.c in Sources */ = {isa = PBXBuildFile; fileRef = A47D5CCB292A1F6D00FC779B /* multiconv_internal.c */; };
+		A47D5D21292A20C600FC779B /* multiconv.c in Sources */ = {isa = PBXBuildFile; fileRef = A47D5CCC292A1F6D00FC779B /* multiconv.c */; };
+		A47D5D22292A20CA00FC779B /* ambi_drc.c in Sources */ = {isa = PBXBuildFile; fileRef = A47D5CC7292A1F6D00FC779B /* ambi_drc.c */; };
+		A47D5D23292A20CA00FC779B /* ambi_drc_internal.c in Sources */ = {isa = PBXBuildFile; fileRef = A47D5CC9292A1F6D00FC779B /* ambi_drc_internal.c */; };
+		A47D5D24292A20CE00FC779B /* powermap.c in Sources */ = {isa = PBXBuildFile; fileRef = A47D5CC4292A1F6D00FC779B /* powermap.c */; };
+		A47D5D25292A20CE00FC779B /* powermap_internal.c in Sources */ = {isa = PBXBuildFile; fileRef = A47D5CC5292A1F6D00FC779B /* powermap_internal.c */; };
+		A47D5D29292A210800FC779B /* tvconv_internal.c in Sources */ = {isa = PBXBuildFile; fileRef = A47D5CB9292A1F6D00FC779B /* tvconv_internal.c */; };
+		A47D5D2A292A210800FC779B /* tvconv.c in Sources */ = {isa = PBXBuildFile; fileRef = A47D5CBA292A1F6D00FC779B /* tvconv.c */; };
 		A4ACF9472927727A002579EA /* resample.c in Sources */ = {isa = PBXBuildFile; fileRef = A4ACF8B82927727A002579EA /* resample.c */; };
 		A4ACF9482927727A002579EA /* md_malloc.c in Sources */ = {isa = PBXBuildFile; fileRef = A4ACF8BF2927727A002579EA /* md_malloc.c */; };
 		A4ACF9492927727A002579EA /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = A4ACF8C52927727A002579EA /* inflate.c */; };
@@ -80,6 +110,89 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A47D5CA2292A1F6D00FC779B /* ambi_bin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ambi_bin.h; sourceTree = "<group>"; };
+		A47D5CA3292A1F6D00FC779B /* beamformer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = beamformer.h; sourceTree = "<group>"; };
+		A47D5CA4292A1F6D00FC779B /* rotator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rotator.h; sourceTree = "<group>"; };
+		A47D5CA5292A1F6D00FC779B /* decorrelator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = decorrelator.h; sourceTree = "<group>"; };
+		A47D5CA6292A1F6D00FC779B /* dirass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dirass.h; sourceTree = "<group>"; };
+		A47D5CA7292A1F6D00FC779B /* matrixconv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = matrixconv.h; sourceTree = "<group>"; };
+		A47D5CA8292A1F6D00FC779B /* panner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = panner.h; sourceTree = "<group>"; };
+		A47D5CA9292A1F6D00FC779B /* array2sh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = array2sh.h; sourceTree = "<group>"; };
+		A47D5CAA292A1F6D00FC779B /* binauraliser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = binauraliser.h; sourceTree = "<group>"; };
+		A47D5CAB292A1F6D00FC779B /* sldoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sldoa.h; sourceTree = "<group>"; };
+		A47D5CAC292A1F6D00FC779B /* pitch_shifter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pitch_shifter.h; sourceTree = "<group>"; };
+		A47D5CAD292A1F6D00FC779B /* binauraliser_nf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = binauraliser_nf.h; sourceTree = "<group>"; };
+		A47D5CAE292A1F6D00FC779B /* ambi_roomsim.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ambi_roomsim.h; sourceTree = "<group>"; };
+		A47D5CAF292A1F6D00FC779B /* ambi_enc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ambi_enc.h; sourceTree = "<group>"; };
+		A47D5CB0292A1F6D00FC779B /* ambi_drc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ambi_drc.h; sourceTree = "<group>"; };
+		A47D5CB1292A1F6D00FC779B /* tvconv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tvconv.h; sourceTree = "<group>"; };
+		A47D5CB2292A1F6D00FC779B /* ambi_dec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ambi_dec.h; sourceTree = "<group>"; };
+		A47D5CB3292A1F6D00FC779B /* spreader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = spreader.h; sourceTree = "<group>"; };
+		A47D5CB4292A1F6D00FC779B /* powermap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = powermap.h; sourceTree = "<group>"; };
+		A47D5CB5292A1F6D00FC779B /* multiconv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = multiconv.h; sourceTree = "<group>"; };
+		A47D5CB6292A1F6D00FC779B /* _common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _common.h; sourceTree = "<group>"; };
+		A47D5CB9292A1F6D00FC779B /* tvconv_internal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tvconv_internal.c; sourceTree = "<group>"; };
+		A47D5CBA292A1F6D00FC779B /* tvconv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tvconv.c; sourceTree = "<group>"; };
+		A47D5CBB292A1F6D00FC779B /* tvconv_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tvconv_internal.h; sourceTree = "<group>"; };
+		A47D5CBD292A1F6D00FC779B /* sldoa_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sldoa_internal.h; sourceTree = "<group>"; };
+		A47D5CBE292A1F6D00FC779B /* sldoa_database.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sldoa_database.c; sourceTree = "<group>"; };
+		A47D5CBF292A1F6D00FC779B /* sldoa.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sldoa.c; sourceTree = "<group>"; };
+		A47D5CC0292A1F6D00FC779B /* sldoa_internal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sldoa_internal.c; sourceTree = "<group>"; };
+		A47D5CC1292A1F6D00FC779B /* sldoa_database.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sldoa_database.h; sourceTree = "<group>"; };
+		A47D5CC3292A1F6D00FC779B /* powermap_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = powermap_internal.h; sourceTree = "<group>"; };
+		A47D5CC4292A1F6D00FC779B /* powermap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = powermap.c; sourceTree = "<group>"; };
+		A47D5CC5292A1F6D00FC779B /* powermap_internal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = powermap_internal.c; sourceTree = "<group>"; };
+		A47D5CC7292A1F6D00FC779B /* ambi_drc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ambi_drc.c; sourceTree = "<group>"; };
+		A47D5CC8292A1F6D00FC779B /* ambi_drc_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ambi_drc_internal.h; sourceTree = "<group>"; };
+		A47D5CC9292A1F6D00FC779B /* ambi_drc_internal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ambi_drc_internal.c; sourceTree = "<group>"; };
+		A47D5CCB292A1F6D00FC779B /* multiconv_internal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = multiconv_internal.c; sourceTree = "<group>"; };
+		A47D5CCC292A1F6D00FC779B /* multiconv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = multiconv.c; sourceTree = "<group>"; };
+		A47D5CCD292A1F6D00FC779B /* multiconv_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = multiconv_internal.h; sourceTree = "<group>"; };
+		A47D5CCF292A1F6D00FC779B /* ambi_bin_internal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ambi_bin_internal.c; sourceTree = "<group>"; };
+		A47D5CD0292A1F6D00FC779B /* ambi_bin_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ambi_bin_internal.h; sourceTree = "<group>"; };
+		A47D5CD1292A1F6D00FC779B /* ambi_bin.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ambi_bin.c; sourceTree = "<group>"; };
+		A47D5CD3292A1F6D00FC779B /* beamformer_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = beamformer_internal.h; sourceTree = "<group>"; };
+		A47D5CD4292A1F6D00FC779B /* beamformer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = beamformer.c; sourceTree = "<group>"; };
+		A47D5CD5292A1F6D00FC779B /* beamformer_internal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = beamformer_internal.c; sourceTree = "<group>"; };
+		A47D5CD7292A1F6D00FC779B /* matrixconv_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = matrixconv_internal.h; sourceTree = "<group>"; };
+		A47D5CD8292A1F6D00FC779B /* matrixconv_internal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = matrixconv_internal.c; sourceTree = "<group>"; };
+		A47D5CD9292A1F6D00FC779B /* matrixconv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = matrixconv.c; sourceTree = "<group>"; };
+		A47D5CDB292A1F6D00FC779B /* pitch_shifter_internal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pitch_shifter_internal.c; sourceTree = "<group>"; };
+		A47D5CDC292A1F6D00FC779B /* pitch_shifter.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pitch_shifter.c; sourceTree = "<group>"; };
+		A47D5CDD292A1F6D00FC779B /* pitch_shifter_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pitch_shifter_internal.h; sourceTree = "<group>"; };
+		A47D5CDF292A1F6D00FC779B /* binauraliser_internal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = binauraliser_internal.c; sourceTree = "<group>"; };
+		A47D5CE0292A1F6D00FC779B /* binauraliser.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = binauraliser.c; sourceTree = "<group>"; };
+		A47D5CE1292A1F6D00FC779B /* binauraliser_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = binauraliser_internal.h; sourceTree = "<group>"; };
+		A47D5CE3292A1F6D00FC779B /* rotator_internal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rotator_internal.c; sourceTree = "<group>"; };
+		A47D5CE4292A1F6D00FC779B /* rotator.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rotator.c; sourceTree = "<group>"; };
+		A47D5CE5292A1F6D00FC779B /* rotator_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rotator_internal.h; sourceTree = "<group>"; };
+		A47D5CE7292A1F6D00FC779B /* binauraliser_nf_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = binauraliser_nf_internal.h; sourceTree = "<group>"; };
+		A47D5CE8292A1F6D00FC779B /* binauraliser_nf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = binauraliser_nf.c; sourceTree = "<group>"; };
+		A47D5CE9292A1F6D00FC779B /* binauraliser_nf_internal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = binauraliser_nf_internal.c; sourceTree = "<group>"; };
+		A47D5CEB292A1F6D00FC779B /* array2sh_internal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = array2sh_internal.c; sourceTree = "<group>"; };
+		A47D5CEC292A1F6D00FC779B /* array2sh.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = array2sh.c; sourceTree = "<group>"; };
+		A47D5CED292A1F6D00FC779B /* array2sh_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = array2sh_internal.h; sourceTree = "<group>"; };
+		A47D5CEF292A1F6D00FC779B /* decorrelator_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = decorrelator_internal.h; sourceTree = "<group>"; };
+		A47D5CF0292A1F6D00FC779B /* decorrelator.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = decorrelator.c; sourceTree = "<group>"; };
+		A47D5CF1292A1F6D00FC779B /* decorrelator_internal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = decorrelator_internal.c; sourceTree = "<group>"; };
+		A47D5CF3292A1F6D00FC779B /* ambi_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ambi_enc.c; sourceTree = "<group>"; };
+		A47D5CF4292A1F6D00FC779B /* ambi_enc_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ambi_enc_internal.h; sourceTree = "<group>"; };
+		A47D5CF5292A1F6D00FC779B /* ambi_enc_internal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ambi_enc_internal.c; sourceTree = "<group>"; };
+		A47D5CF7292A1F6D00FC779B /* panner_internal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = panner_internal.c; sourceTree = "<group>"; };
+		A47D5CF8292A1F6D00FC779B /* panner.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = panner.c; sourceTree = "<group>"; };
+		A47D5CF9292A1F6D00FC779B /* panner_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = panner_internal.h; sourceTree = "<group>"; };
+		A47D5CFB292A1F6D00FC779B /* ambi_roomsim_internal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ambi_roomsim_internal.c; sourceTree = "<group>"; };
+		A47D5CFC292A1F6D00FC779B /* ambi_roomsim_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ambi_roomsim_internal.h; sourceTree = "<group>"; };
+		A47D5CFD292A1F6D00FC779B /* ambi_roomsim.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ambi_roomsim.c; sourceTree = "<group>"; };
+		A47D5CFF292A1F6D00FC779B /* ambi_dec_internal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ambi_dec_internal.c; sourceTree = "<group>"; };
+		A47D5D00292A1F6D00FC779B /* ambi_dec.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ambi_dec.c; sourceTree = "<group>"; };
+		A47D5D01292A1F6D00FC779B /* ambi_dec_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ambi_dec_internal.h; sourceTree = "<group>"; };
+		A47D5D03292A1F6D00FC779B /* dirass_internal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dirass_internal.c; sourceTree = "<group>"; };
+		A47D5D04292A1F6D00FC779B /* dirass.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dirass.c; sourceTree = "<group>"; };
+		A47D5D05292A1F6D00FC779B /* dirass_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dirass_internal.h; sourceTree = "<group>"; };
+		A47D5D07292A1F6D00FC779B /* spreader.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = spreader.c; sourceTree = "<group>"; };
+		A47D5D08292A1F6D00FC779B /* spreader_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = spreader_internal.h; sourceTree = "<group>"; };
+		A47D5D09292A1F6D00FC779B /* spreader_internal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = spreader_internal.c; sourceTree = "<group>"; };
 		A4ACF8A22927719C002579EA /* libSAFLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSAFLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4ACF8B12927727A002579EA /* saf_externals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = saf_externals.h; sourceTree = "<group>"; };
 		A4ACF8B22927727A002579EA /* saf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = saf.h; sourceTree = "<group>"; };
@@ -224,9 +337,276 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A47D5C9F292A1F6D00FC779B /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				A47D5CA1292A1F6D00FC779B /* include */,
+				A47D5CB7292A1F6D00FC779B /* src */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		A47D5CA1292A1F6D00FC779B /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A47D5CA2292A1F6D00FC779B /* ambi_bin.h */,
+				A47D5CA3292A1F6D00FC779B /* beamformer.h */,
+				A47D5CA4292A1F6D00FC779B /* rotator.h */,
+				A47D5CA5292A1F6D00FC779B /* decorrelator.h */,
+				A47D5CA6292A1F6D00FC779B /* dirass.h */,
+				A47D5CA7292A1F6D00FC779B /* matrixconv.h */,
+				A47D5CA8292A1F6D00FC779B /* panner.h */,
+				A47D5CA9292A1F6D00FC779B /* array2sh.h */,
+				A47D5CAA292A1F6D00FC779B /* binauraliser.h */,
+				A47D5CAB292A1F6D00FC779B /* sldoa.h */,
+				A47D5CAC292A1F6D00FC779B /* pitch_shifter.h */,
+				A47D5CAD292A1F6D00FC779B /* binauraliser_nf.h */,
+				A47D5CAE292A1F6D00FC779B /* ambi_roomsim.h */,
+				A47D5CAF292A1F6D00FC779B /* ambi_enc.h */,
+				A47D5CB0292A1F6D00FC779B /* ambi_drc.h */,
+				A47D5CB1292A1F6D00FC779B /* tvconv.h */,
+				A47D5CB2292A1F6D00FC779B /* ambi_dec.h */,
+				A47D5CB3292A1F6D00FC779B /* spreader.h */,
+				A47D5CB4292A1F6D00FC779B /* powermap.h */,
+				A47D5CB5292A1F6D00FC779B /* multiconv.h */,
+				A47D5CB6292A1F6D00FC779B /* _common.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		A47D5CB7292A1F6D00FC779B /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A47D5CB8292A1F6D00FC779B /* tvconv */,
+				A47D5CBC292A1F6D00FC779B /* sldoa */,
+				A47D5CC2292A1F6D00FC779B /* powermap */,
+				A47D5CC6292A1F6D00FC779B /* ambi_drc */,
+				A47D5CCA292A1F6D00FC779B /* multiconv */,
+				A47D5CCE292A1F6D00FC779B /* ambi_bin */,
+				A47D5CD2292A1F6D00FC779B /* beamformer */,
+				A47D5CD6292A1F6D00FC779B /* matrixconv */,
+				A47D5CDA292A1F6D00FC779B /* pitch_shifter */,
+				A47D5CDE292A1F6D00FC779B /* binauraliser */,
+				A47D5CE2292A1F6D00FC779B /* rotator */,
+				A47D5CE6292A1F6D00FC779B /* binauraliser_nf */,
+				A47D5CEA292A1F6D00FC779B /* array2sh */,
+				A47D5CEE292A1F6D00FC779B /* decorrelator */,
+				A47D5CF2292A1F6D00FC779B /* ambi_enc */,
+				A47D5CF6292A1F6D00FC779B /* panner */,
+				A47D5CFA292A1F6D00FC779B /* ambi_roomsim */,
+				A47D5CFE292A1F6D00FC779B /* ambi_dec */,
+				A47D5D02292A1F6D00FC779B /* dirass */,
+				A47D5D06292A1F6D00FC779B /* spreader */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		A47D5CB8292A1F6D00FC779B /* tvconv */ = {
+			isa = PBXGroup;
+			children = (
+				A47D5CB9292A1F6D00FC779B /* tvconv_internal.c */,
+				A47D5CBA292A1F6D00FC779B /* tvconv.c */,
+				A47D5CBB292A1F6D00FC779B /* tvconv_internal.h */,
+			);
+			path = tvconv;
+			sourceTree = "<group>";
+		};
+		A47D5CBC292A1F6D00FC779B /* sldoa */ = {
+			isa = PBXGroup;
+			children = (
+				A47D5CBD292A1F6D00FC779B /* sldoa_internal.h */,
+				A47D5CBE292A1F6D00FC779B /* sldoa_database.c */,
+				A47D5CBF292A1F6D00FC779B /* sldoa.c */,
+				A47D5CC0292A1F6D00FC779B /* sldoa_internal.c */,
+				A47D5CC1292A1F6D00FC779B /* sldoa_database.h */,
+			);
+			path = sldoa;
+			sourceTree = "<group>";
+		};
+		A47D5CC2292A1F6D00FC779B /* powermap */ = {
+			isa = PBXGroup;
+			children = (
+				A47D5CC3292A1F6D00FC779B /* powermap_internal.h */,
+				A47D5CC4292A1F6D00FC779B /* powermap.c */,
+				A47D5CC5292A1F6D00FC779B /* powermap_internal.c */,
+			);
+			path = powermap;
+			sourceTree = "<group>";
+		};
+		A47D5CC6292A1F6D00FC779B /* ambi_drc */ = {
+			isa = PBXGroup;
+			children = (
+				A47D5CC7292A1F6D00FC779B /* ambi_drc.c */,
+				A47D5CC8292A1F6D00FC779B /* ambi_drc_internal.h */,
+				A47D5CC9292A1F6D00FC779B /* ambi_drc_internal.c */,
+			);
+			path = ambi_drc;
+			sourceTree = "<group>";
+		};
+		A47D5CCA292A1F6D00FC779B /* multiconv */ = {
+			isa = PBXGroup;
+			children = (
+				A47D5CCB292A1F6D00FC779B /* multiconv_internal.c */,
+				A47D5CCC292A1F6D00FC779B /* multiconv.c */,
+				A47D5CCD292A1F6D00FC779B /* multiconv_internal.h */,
+			);
+			path = multiconv;
+			sourceTree = "<group>";
+		};
+		A47D5CCE292A1F6D00FC779B /* ambi_bin */ = {
+			isa = PBXGroup;
+			children = (
+				A47D5CCF292A1F6D00FC779B /* ambi_bin_internal.c */,
+				A47D5CD0292A1F6D00FC779B /* ambi_bin_internal.h */,
+				A47D5CD1292A1F6D00FC779B /* ambi_bin.c */,
+			);
+			path = ambi_bin;
+			sourceTree = "<group>";
+		};
+		A47D5CD2292A1F6D00FC779B /* beamformer */ = {
+			isa = PBXGroup;
+			children = (
+				A47D5CD3292A1F6D00FC779B /* beamformer_internal.h */,
+				A47D5CD4292A1F6D00FC779B /* beamformer.c */,
+				A47D5CD5292A1F6D00FC779B /* beamformer_internal.c */,
+			);
+			path = beamformer;
+			sourceTree = "<group>";
+		};
+		A47D5CD6292A1F6D00FC779B /* matrixconv */ = {
+			isa = PBXGroup;
+			children = (
+				A47D5CD7292A1F6D00FC779B /* matrixconv_internal.h */,
+				A47D5CD8292A1F6D00FC779B /* matrixconv_internal.c */,
+				A47D5CD9292A1F6D00FC779B /* matrixconv.c */,
+			);
+			path = matrixconv;
+			sourceTree = "<group>";
+		};
+		A47D5CDA292A1F6D00FC779B /* pitch_shifter */ = {
+			isa = PBXGroup;
+			children = (
+				A47D5CDB292A1F6D00FC779B /* pitch_shifter_internal.c */,
+				A47D5CDC292A1F6D00FC779B /* pitch_shifter.c */,
+				A47D5CDD292A1F6D00FC779B /* pitch_shifter_internal.h */,
+			);
+			path = pitch_shifter;
+			sourceTree = "<group>";
+		};
+		A47D5CDE292A1F6D00FC779B /* binauraliser */ = {
+			isa = PBXGroup;
+			children = (
+				A47D5CDF292A1F6D00FC779B /* binauraliser_internal.c */,
+				A47D5CE0292A1F6D00FC779B /* binauraliser.c */,
+				A47D5CE1292A1F6D00FC779B /* binauraliser_internal.h */,
+			);
+			path = binauraliser;
+			sourceTree = "<group>";
+		};
+		A47D5CE2292A1F6D00FC779B /* rotator */ = {
+			isa = PBXGroup;
+			children = (
+				A47D5CE3292A1F6D00FC779B /* rotator_internal.c */,
+				A47D5CE4292A1F6D00FC779B /* rotator.c */,
+				A47D5CE5292A1F6D00FC779B /* rotator_internal.h */,
+			);
+			path = rotator;
+			sourceTree = "<group>";
+		};
+		A47D5CE6292A1F6D00FC779B /* binauraliser_nf */ = {
+			isa = PBXGroup;
+			children = (
+				A47D5CE7292A1F6D00FC779B /* binauraliser_nf_internal.h */,
+				A47D5CE8292A1F6D00FC779B /* binauraliser_nf.c */,
+				A47D5CE9292A1F6D00FC779B /* binauraliser_nf_internal.c */,
+			);
+			path = binauraliser_nf;
+			sourceTree = "<group>";
+		};
+		A47D5CEA292A1F6D00FC779B /* array2sh */ = {
+			isa = PBXGroup;
+			children = (
+				A47D5CEB292A1F6D00FC779B /* array2sh_internal.c */,
+				A47D5CEC292A1F6D00FC779B /* array2sh.c */,
+				A47D5CED292A1F6D00FC779B /* array2sh_internal.h */,
+			);
+			path = array2sh;
+			sourceTree = "<group>";
+		};
+		A47D5CEE292A1F6D00FC779B /* decorrelator */ = {
+			isa = PBXGroup;
+			children = (
+				A47D5CEF292A1F6D00FC779B /* decorrelator_internal.h */,
+				A47D5CF0292A1F6D00FC779B /* decorrelator.c */,
+				A47D5CF1292A1F6D00FC779B /* decorrelator_internal.c */,
+			);
+			path = decorrelator;
+			sourceTree = "<group>";
+		};
+		A47D5CF2292A1F6D00FC779B /* ambi_enc */ = {
+			isa = PBXGroup;
+			children = (
+				A47D5CF3292A1F6D00FC779B /* ambi_enc.c */,
+				A47D5CF4292A1F6D00FC779B /* ambi_enc_internal.h */,
+				A47D5CF5292A1F6D00FC779B /* ambi_enc_internal.c */,
+			);
+			path = ambi_enc;
+			sourceTree = "<group>";
+		};
+		A47D5CF6292A1F6D00FC779B /* panner */ = {
+			isa = PBXGroup;
+			children = (
+				A47D5CF7292A1F6D00FC779B /* panner_internal.c */,
+				A47D5CF8292A1F6D00FC779B /* panner.c */,
+				A47D5CF9292A1F6D00FC779B /* panner_internal.h */,
+			);
+			path = panner;
+			sourceTree = "<group>";
+		};
+		A47D5CFA292A1F6D00FC779B /* ambi_roomsim */ = {
+			isa = PBXGroup;
+			children = (
+				A47D5CFB292A1F6D00FC779B /* ambi_roomsim_internal.c */,
+				A47D5CFC292A1F6D00FC779B /* ambi_roomsim_internal.h */,
+				A47D5CFD292A1F6D00FC779B /* ambi_roomsim.c */,
+			);
+			path = ambi_roomsim;
+			sourceTree = "<group>";
+		};
+		A47D5CFE292A1F6D00FC779B /* ambi_dec */ = {
+			isa = PBXGroup;
+			children = (
+				A47D5CFF292A1F6D00FC779B /* ambi_dec_internal.c */,
+				A47D5D00292A1F6D00FC779B /* ambi_dec.c */,
+				A47D5D01292A1F6D00FC779B /* ambi_dec_internal.h */,
+			);
+			path = ambi_dec;
+			sourceTree = "<group>";
+		};
+		A47D5D02292A1F6D00FC779B /* dirass */ = {
+			isa = PBXGroup;
+			children = (
+				A47D5D03292A1F6D00FC779B /* dirass_internal.c */,
+				A47D5D04292A1F6D00FC779B /* dirass.c */,
+				A47D5D05292A1F6D00FC779B /* dirass_internal.h */,
+			);
+			path = dirass;
+			sourceTree = "<group>";
+		};
+		A47D5D06292A1F6D00FC779B /* spreader */ = {
+			isa = PBXGroup;
+			children = (
+				A47D5D07292A1F6D00FC779B /* spreader.c */,
+				A47D5D08292A1F6D00FC779B /* spreader_internal.h */,
+				A47D5D09292A1F6D00FC779B /* spreader_internal.c */,
+			);
+			path = spreader;
+			sourceTree = "<group>";
+		};
 		A4ACF8992927719C002579EA = {
 			isa = PBXGroup;
 			children = (
+				A47D5C9F292A1F6D00FC779B /* examples */,
 				A4ACF8AE2927727A002579EA /* framework */,
 				A4ACF8A32927719C002579EA /* Products */,
 				A4ACF98029277309002579EA /* Frameworks */,
@@ -611,55 +991,85 @@
 			files = (
 				A4ACF9512927727A002579EA /* trees.c in Sources */,
 				A4ACF97F2927727A002579EA /* saf_tracker.c in Sources */,
+				A47D5D15292A1F9D00FC779B /* rotator_internal.c in Sources */,
+				A47D5D29292A210800FC779B /* tvconv_internal.c in Sources */,
 				A4ACF94E2927727A002579EA /* zutil.c in Sources */,
 				A4ACF9592927727A002579EA /* saf_cdf4sap.c in Sources */,
+				A47D5D19292A20B500FC779B /* pitch_shifter.c in Sources */,
 				A4ACF94B2927727A002579EA /* deflate.c in Sources */,
 				A4ACF95A2927727A002579EA /* saf_hoa_internal.c in Sources */,
+				A47D5D2A292A210800FC779B /* tvconv.c in Sources */,
 				A4ACF9702927727A002579EA /* saf_reverb_internal.c in Sources */,
+				A47D5D10292A1F9300FC779B /* array2sh.c in Sources */,
 				A4ACF9502927727A002579EA /* uncompr.c in Sources */,
 				A4ACF9532927727A002579EA /* adler32.c in Sources */,
 				A4ACF9782927727A002579EA /* mysofa.c in Sources */,
+				A47D5D1E292A20C200FC779B /* ambi_bin_internal.c in Sources */,
+				A47D5D21292A20C600FC779B /* multiconv.c in Sources */,
+				A47D5D0C292A1F8800FC779B /* ambi_enc_internal.c in Sources */,
+				A47D5D0D292A1F8800FC779B /* ambi_enc.c in Sources */,
 				A4ACF9482927727A002579EA /* md_malloc.c in Sources */,
+				A47D5D0F292A1F8D00FC779B /* decorrelator_internal.c in Sources */,
 				A4ACF97D2927727A002579EA /* saf_hrir.c in Sources */,
+				A47D5D1C292A20BF00FC779B /* beamformer_internal.c in Sources */,
 				A4ACF9522927727A002579EA /* inffast.c in Sources */,
 				A4ACF94D2927727A002579EA /* infback.c in Sources */,
+				A47D5D17292A207000FC779B /* binauraliser_internal.c in Sources */,
 				A4ACF96A2927727A002579EA /* saf_utility_loudspeaker_presets.c in Sources */,
 				A4ACF9542927727A002579EA /* kiss_fft.c in Sources */,
+				A47D5D13292A1F9800FC779B /* binauraliser_nf_internal.c in Sources */,
+				A47D5D0B292A1F7900FC779B /* panner.c in Sources */,
 				A4ACF9652927727A002579EA /* saf_utility_latticeCoeffs.c in Sources */,
 				A4ACF96E2927727A002579EA /* saf_utility_decor.c in Sources */,
 				A4ACF9622927727A002579EA /* saf_utility_misc.c in Sources */,
 				A4ACF9642927727A002579EA /* saf_utility_pitch.c in Sources */,
 				A4ACF9472927727A002579EA /* resample.c in Sources */,
 				A4ACF9762927727A002579EA /* hdf_fractalhead.c in Sources */,
+				A47D5D0A292A1F7600FC779B /* panner_internal.c in Sources */,
+				A47D5D20292A20C600FC779B /* multiconv_internal.c in Sources */,
 				A4ACF95F2927727A002579EA /* saf_utility_sensorarray_presets.c in Sources */,
 				A4ACF9742927727A002579EA /* hdf_dataobject.c in Sources */,
+				A47D5D24292A20CE00FC779B /* powermap.c in Sources */,
 				A4ACF96C2927727A002579EA /* saf_utility_sort.c in Sources */,
 				A4ACF9672927727A002579EA /* saf_utility_dvf.c in Sources */,
 				A4ACF9682927727A002579EA /* saf_utility_filters.c in Sources */,
 				A4ACF9602927727A002579EA /* saf_utility_bessel.c in Sources */,
+				A47D5D1A292A20BB00FC779B /* matrixconv.c in Sources */,
+				A47D5D12292A1F9800FC779B /* binauraliser_nf.c in Sources */,
 				A4ACF9712927727A002579EA /* saf_sh.c in Sources */,
 				A4ACF9692927727A002579EA /* saf_utility_complex.c in Sources */,
+				A47D5D11292A1F9300FC779B /* array2sh_internal.c in Sources */,
 				A4ACF94C2927727A002579EA /* crc32.c in Sources */,
 				A4ACF9562927727A002579EA /* afSTFTlib.c in Sources */,
 				A4ACF95B2927727A002579EA /* saf_hoa.c in Sources */,
 				A4ACF97E2927727A002579EA /* saf_tracker_internal.c in Sources */,
 				A4ACF9552927727A002579EA /* kiss_fftr.c in Sources */,
 				A4ACF96D2927727A002579EA /* saf_utility_matrixConv.c in Sources */,
+				A47D5D1D292A20BF00FC779B /* beamformer.c in Sources */,
 				A4ACF9582927727A002579EA /* convhull_3d.c in Sources */,
+				A47D5D0E292A1F8D00FC779B /* decorrelator.c in Sources */,
+				A47D5D1F292A20C200FC779B /* ambi_bin.c in Sources */,
 				A4ACF9572927727A002579EA /* afSTFT_internal.c in Sources */,
 				A4ACF97B2927727A002579EA /* saf_vbap.c in Sources */,
 				A4ACF9752927727A002579EA /* kdtree.c in Sources */,
 				A4ACF9632927727A002579EA /* saf_utility_qmf.c in Sources */,
 				A4ACF95D2927727A002579EA /* saf_hades_synthesis.c in Sources */,
 				A4ACF97A2927727A002579EA /* saf_vbap_internal.c in Sources */,
+				A47D5D16292A203A00FC779B /* binauraliser.c in Sources */,
 				A4ACF9722927727A002579EA /* saf_sh_internal.c in Sources */,
 				A4ACF96B2927727A002579EA /* saf_utility_veclib.c in Sources */,
 				A4ACF9772927727A002579EA /* hdf_reader.c in Sources */,
 				A4ACF94F2927727A002579EA /* inftrees.c in Sources */,
+				A47D5D14292A1F9D00FC779B /* rotator.c in Sources */,
 				A4ACF9792927727A002579EA /* saf_sofa_reader.c in Sources */,
 				A4ACF9492927727A002579EA /* inflate.c in Sources */,
+				A47D5D1B292A20BB00FC779B /* matrixconv_internal.c in Sources */,
+				A47D5D25292A20CE00FC779B /* powermap_internal.c in Sources */,
 				A4ACF95C2927727A002579EA /* saf_hades_analysis.c in Sources */,
+				A47D5D23292A20CA00FC779B /* ambi_drc_internal.c in Sources */,
 				A4ACF94A2927727A002579EA /* compress.c in Sources */,
+				A47D5D22292A20CA00FC779B /* ambi_drc.c in Sources */,
+				A47D5D18292A20B300FC779B /* pitch_shifter_internal.c in Sources */,
 				A4ACF96F2927727A002579EA /* saf_reverb.c in Sources */,
 				A4ACF9612927727A002579EA /* saf_utility_fft.c in Sources */,
 				A4ACF95E2927727A002579EA /* saf_hades_internal.c in Sources */,
